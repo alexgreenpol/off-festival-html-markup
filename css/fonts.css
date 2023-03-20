@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Sharp';
+  src: url('../fonts/FontsFree-Net-Sharp-Sans-Extrabold.eot');
+  src: local('☺'),
+    url('../fonts/FontsFree-Net-Sharp-Sans-Extrabold.woff') format('woff'),
+    url('../fonts/FontsFree-Net-Sharp-Sans-Extrabold.ttf') format('truetype'),
+    url('../fonts/FontsFree-Net-Sharp-Sans-Extrabold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
