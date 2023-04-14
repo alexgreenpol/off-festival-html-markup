@@ -1,277 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="./images/favicon.png" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+            integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
+        />
+        <link rel="stylesheet" href="./css/fonts.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Off-festival</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
-     integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
-    <link rel="stylesheet" href="./css/fonts.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Off-festival</title>
-</head>
-
-<body>
-    <header class="header">
-        <div class="container container--fullwidth">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <div class="header__logo filtered">
-                        <img src="./images/logo.png" alt="logo" class="header__logo-img" />
+    <body>
+        <header class="header">
+            <div class="container container--fullwidth">
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-1-3">
+                        <div class="header__logo filtered">
+                            <img
+                                src="./images/logo.png"
+                                alt="logo"
+                                class="header__logo-img"
+                            />
+                        </div>
                     </div>
-                </div>
-                <div class="pure-u-1 pure-u-md-2-3">
-                    <div class="header__menu">
-                        <nav class="header-nav">
-                            <ul class="header-nav__list">
-                                <li class="header-nav__list-item">
-                                    <a href="#">OFF story</a>
-                                </li>
-                                <li class="header-nav__list-item">
-                                    <a href="#">FAQ</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="toggle-menu">
-                            <div class="line line1"></div>
-                            <div class="line line2"></div>
-                            <div class="line line3"></div>
+                    <div class="pure-u-1 pure-u-md-2-3">
+                        <div class="header__menu">
+                            <nav class="header-nav">
+                                <ul class="header-nav__list">
+                                    <li class="header-nav__list-item">
+                                        <a href="/off-story.html">OFF story</a>
+                                    </li>
+                                    <li class="header-nav__list-item">
+                                        <a href="/line-up.html">Line-up</a>
+                                    </li>
+                                    <li class="header-nav__list-item">
+                                        <a href="/faq.html">FAQ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="toggle-menu">
+                                <div class="line line1"></div>
+                                <div class="line line2"></div>
+                                <div class="line line3"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <main>
-        <section class="intro pd--s">
-            <video class="video-overlay chrome" width="1920" height="1080" autoplay="" loop="" muted="">
-                <source src="./video/Comp-2.mp4" type="video/mp4">
-            </video>
-            <div class="container container--fullwidth">
-                <nav class="social-nav social-nav--vertical">
-                    <ul class="social-nav__list">
-                        <li class="social-nav__list-item">
-                            <a href="#" class="social-nav__list-link social-nav__list-link--katowice filtered">
-                                <img src="./images/katowice-logo.svg" alt="">
-                            </a>
-                        </li>
-                        <li class="social-nav__list-item">
-                            <a href="#" class="social-nav__list-link filtered">
-                                <img src="./images/iconmonstr-facebook.svg" alt="">
-                            </a>
-                        </li>
-                        <li class="social-nav__list-item">
-                            <a href="#" class="social-nav__list-link filtered">
-                                <img src="./images/iconmonstr-instagram.svg" alt="">
-                            </a>
-                        </li>
-                        <li class="social-nav__list-item">
-                            <a href="#" class="social-nav__list-link filtered">
-                                <img src="./images/iconmonstr-youtube.svg" alt="">
-                            </a>
-                        </li>
-                        <li class="social-nav__list-item">
-                            <a href="#" class="social-nav__list-link filtered">
-                                <img src="./images/iconmonstr-spotify.svg" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="#" class="btn btn--xl btn--animated">Buy a ticket <img src="./images/ticket.svg" alt=""></a>
-            </div>
-        </section>
+        <main>
+            <section class="intro pd--s">
+                <video
+                    class="video-overlay chrome"
+                    width="1920"
+                    height="1080"
+                    autoplay=""
+                    loop=""
+                    muted=""
+                >
+                    <source src="./video/Comp-2.mp4" type="video/mp4" />
+                </video>
+                <div class="container container--fullwidth">
+                    <nav class="social-nav social-nav--vertical">
+                        <ul class="social-nav__list">
+                            <li class="social-nav__list-item">
+                                <a
+                                    href="#"
+                                    class="social-nav__list-link social-nav__list-link--katowice filtered"
+                                >
+                                    <img
+                                        src="./images/katowice-logo.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="social-nav__list-item">
+                                <a
+                                    href="#"
+                                    class="social-nav__list-link filtered"
+                                >
+                                    <img
+                                        src="./images/iconmonstr-facebook.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="social-nav__list-item">
+                                <a
+                                    href="#"
+                                    class="social-nav__list-link filtered"
+                                >
+                                    <img
+                                        src="./images/iconmonstr-instagram.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="social-nav__list-item">
+                                <a
+                                    href="#"
+                                    class="social-nav__list-link filtered"
+                                >
+                                    <img
+                                        src="./images/iconmonstr-youtube.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="social-nav__list-item">
+                                <a
+                                    href="#"
+                                    class="social-nav__list-link filtered"
+                                >
+                                    <img
+                                        src="./images/iconmonstr-spotify.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a
+                        href="https://www.ebilet.pl/muzyka/festiwale/off-festival?partner=fundacjaindependent&_ga=2.177840224.458797610.1681394129-714732936.1681394129#OFF-Festival-Katowice-2023_8905,308"
+                        class="btn btn--xl btn--animated"
+                        target="_blank"
+                    >
+                        Buy a ticket <img src="./images/ticket.svg" alt="" />
+                    </a>
+                </div>
+            </section>
 
-        <section class="lineup pd--s">
+            <section class="lineup pd--s">
+                <div class="container">
+                    <div class="pure-g">
+                        <div class="pure-u-1">
+                            <h2>Line up</h2>
+                            <ul class="lineup-list">
+                                <li class="lineup-list__item">
+                                    Panda Bear & Sonic Boom
+                                    <img
+                                        src="./images/panda-bear.jpeg"
+                                        alt=""
+                                    />
+                                </li>
+                                <li class="lineup-list__item">
+                                    OFF!
+                                    <img src="./images/off.jpeg" alt="" />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Melody's Echo Chamber
+                                    <img src="./images/melodys.jpeg" alt="" />
+                                </li>
+                                <li class="lineup-list__item">
+                                    The Staples Jr. Singers
+                                    <img src="./images/staples.jpeg" alt="" />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Balming Tiger
+                                    <img
+                                        src="./images/balming-tiger.jpeg"
+                                        alt=""
+                                    />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Gilla Band
+                                    <img
+                                        src="./images/gilla-band.jpeg"
+                                        alt=""
+                                    />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Tropical Fuck Storm
+                                    <img src="./images/tropical.jpeg" alt="" />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Taxi Kebab
+                                    <img
+                                        src="./images/taxi-kebab.jpeg"
+                                        alt=""
+                                    />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Big Joanie
+                                    <img
+                                        src="./images/big-joani-credit.jpeg"
+                                        alt=""
+                                    />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Underscores
+                                    <img
+                                        src="./images/underscores.jpeg"
+                                        alt=""
+                                    />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Haru Nemuri
+                                    <img src="./images/haru.jpeg" alt="" />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Mind Enterprises
+                                    <img
+                                        src="./images/mind-enterprises.jpeg"
+                                        alt=""
+                                    />
+                                </li>
+                                <li class="lineup-list__item">
+                                    Son Rompe Pera
+                                    <img src="./images/son-rompe.jpeg" alt="" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsroom pd--s">
+                <div class="container">
+                    <div class="pure-g">
+                        <div class="pure-u-1">
+                            <h2>Newsroom</h2>
+                        </div>
+                        <div class="pure-u-1 pure-u-md-2-3">
+                            <div class="image-box">
+                                <img src="./images/panda-bear.jpeg" alt="" />
+                            </div>
+                        </div>
+                        <div class="pure-u-1 pure-u-md-1-3">
+                            <div
+                                class="vetical-content vertical-content--centered"
+                            >
+                                <h4>
+                                    From Hardcore Punk and Noise to K-pop and
+                                    Psychedelia
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="video pd--s">
+                <div class="container">
+                    <div class="pure-g">
+                        <div class="pure-u-1">
+                            <video
+                                autoplay=""
+                                controls=""
+                                loop=""
+                                muted=""
+                                src="./video/festival.mp4"
+                            ></video>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="eko pd--s">
+                <div class="container">
+                    <div class="pure-g">
+                        <div class="pure-u-1 pure-u-md-1-2">
+                            <h3>#EKO</h3>
+                            <p>
+                                Ecology and pro-ecological activities are talked
+                                about a lot and often today, in various contexts
+                                of social life, sometimes in very heated
+                                discussions, publicized by the media, and at
+                                OFF-ie for years we have been taking matters
+                                into our hands and instead of thinking, we act.
+                            </p>
+                        </div>
+                        <div class="pure-u-1 pure-u-md-1-2">
+                            <img src="./images/off-container.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
             <div class="container">
-                <div class="pure-g">
+                <hr class="separator" />
+                <div class="pure-g pd--s">
                     <div class="pure-u-1">
-                        <h2>Line up</h2>
-                        <ul class="lineup-list">
-                            <li class="lineup-list__item">
-                                Panda Bear & Sonic Boom
-                                <img src="./images/panda-bear.jpeg" alt="">
+                        <ul class="sponsors">
+                            <li class="sponsors__item">
+                                <p><strong>Host of the festival</strong></p>
+                                <img
+                                    src="./images/katowice-footer-logo.jpg"
+                                    alt=""
+                                />
                             </li>
-                            <li class="lineup-list__item">
-                                OFF!
-                                <img src="./images/off.jpeg" alt="">
+                            <li class="sponsors__item">
+                                <p><strong>Main sponsor</strong></p>
+                                <img
+                                    src="./images/perlage-footer-logo.jpg"
+                                    alt=""
+                                />
                             </li>
-                            <li class="lineup-list__item">
-                                Melody's Echo Chamber
-                                <img src="./images/melodys.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                The Staples Jr. Singers
-                                <img src="./images/staples.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Balming Tiger
-                                <img src="./images/balming-tiger.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Gilla Band
-                                <img src="./images/gilla-band.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Tropical Fuck Storm
-                                <img src="./images/tropical.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Taxi Kebab
-                                <img src="./images/taxi-kebab.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Big Joanie
-                                <img src="./images/big-joani-credit.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Underscores
-                                <img src="./images/underscores.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Haru Nemuri
-                                <img src="./images/haru.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Mind Enterprises
-                                <img src="./images/mind-enterprises.jpeg" alt="">
-                            </li>
-                            <li class="lineup-list__item">
-                                Son Rompe Pera
-                                <img src="./images/son-rompe.jpeg" alt="">
+                            <li class="sponsors__item">
+                                <p><strong>Sponsors</strong></p>
+                                <img
+                                    src="./images/klimat-footer-logo.png"
+                                    alt=""
+                                />
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="newsroom pd--s">
-            <div class="container">
-                <div class="pure-g">
+                <hr class="separator" />
+                <div class="pure-g pd--s">
                     <div class="pure-u-1">
-                        <h2>Newsroom</h2>
+                        <nav class="links">
+                            <a href="/line-up.html">Line-up</a>
+                            <a href="/about.html">About</a>
+                            <a href="/faq.html">FAQ</a>
+                        </nav>
                     </div>
-                    <div class="pure-u-1 pure-u-md-2-3">
-                        <div class="image-box">
-                            <img src="./images/panda-bear.jpeg" alt="">
+                </div>
+                <hr class="separator" />
+                <div class="pure-g pd--s">
+                    <div class="pure-u-1 pure-u-md-1-3">
+                        <div class="copyright">Copyright 2023 OFF Festival</div>
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-3">
+                        <div class="privacy">
+                            <a href="#">Privacy policy</a>
                         </div>
                     </div>
                     <div class="pure-u-1 pure-u-md-1-3">
-                        <div class="vetical-content vertical-content--centered">
-                            <h4>Hardcore i psychodelia, k-pop i noise. Zaczynamy!</h4>
+                        <div class="fooz-logo">
+                            <img src="./images/fooz.svg" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </footer>
 
-        <section class="video pd--s">
-            <div class="container">
-                <div class="pure-g">
-                    <div class="pure-u-1">
-                        <video autoplay="" controls="" loop="" muted="" src="./video/festival.mp4"></video>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="eko pd--s">
-            <div class="container">
-                <div class="pure-g">
-                    <div class="pure-u-1 pure-u-md-1-2">
-                        <h3>#EKO</h3>
-                        <p>O ekologii i proekologicznych działaniach mówi się dzisiaj dużo i często, w przeróżnych
-                            kontekstach życia społecznego, nieraz w bardzo zaciekłych, nagłaśnianych przez media
-                            dyskusjach, a na OFF-ie od lat bierzemy sprawy w nasze ręce i zamiast zastanawiać się,
-                            działamy.</p>
-                        <a href="#" class="btn">#EKO</a>
-                    </div>
-                    <div class="pure-u-1 pure-u-md-1-2">
-                        <img src="./images/off-container.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <hr class="separator">
-            <div class="pure-g pd--s">
-                <div class="pure-u-1">
-                    <ul class="sponsors">
-                        <li class="sponsors__item">
-                            <p><strong>Gospodarz festiwalu</strong></p>
-                            <img src="./images/katowice-footer-logo.jpg" alt="">
-                        </li>
-                        <li class="sponsors__item">
-                            <p><strong>Sponsor główny</strong></p>
-                            <img src="./images/perlage-footer-logo.jpg" alt="">
-                        </li>
-                        <li class="sponsors__item">
-                            <p><strong>Sponsorzy</strong></p>
-                            <img src="./images/klimat-footer-logo.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <hr class="separator">
-            <div class="pure-g pd--s">
-                <div class="pure-u-1">
-                    <nav class="links">
-                        <a href="#">Line-up</a>
-                        <a href="#">O Festiwalu</a>
-                        <a href="#">#EKO</a>
-                        <a href="#">FAQ</a>
-                    </nav>
-                </div>
-            </div>
-            <hr class="separator">
-            <div class="pure-g pd--s">
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <div class="copyright">
-                        Copyright 2023 OFF Festival
-                    </div>
-                </div>
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <div class="privacy">
-                        <a href="#">Polityka prywatności</a>
-                    </div>
-                </div>
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <div class="fooz-logo">
-                        <img src="./images/fooz.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./js/main.js"></script>
-
-    <script>
-        const wow = new WOW({
-            boxClass: "wow",
-            animateClass: "animated",
-            offset: 0,
-            mobile: true,
-            live: true,
-            scrollContainer: null,
-            resetAnimation: true,
-        });
-
-        wow.init();
-    </script>
-</body>
-
+        <script src="./js/main.js"></script>
+    </body>
 </html>
