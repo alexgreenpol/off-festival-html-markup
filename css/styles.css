@@ -789,7 +789,7 @@ h6 {
     position: relative;
     background-color: transparent;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 70px 10px 10px;
     width: 100%;
     text-align: left;
     border: none;
